@@ -1,0 +1,271 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+HTML,BODY{
+   width: 100%;
+   height: 100%;
+}
+
+#main{
+   height: 100%;
+   width: 100%;
+
+}
+
+#header{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+   display: flex;
+   position: fixed;
+   z-index: 1000;
+}
+
+#logo{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 700px;
+}
+.texts{
+    display: flex;
+    margin: 20px;
+}
+
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255); 
+}
+
+.elevate{
+    background-image: url(gradient-3d-fluid-background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 52%;
+    height: 95%;
+    margin-left: 30px;
+}
+
+.text-overlay{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+    font-size: 59px;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: -6%;
+}
+
+.projects{
+    width: 43.4%;
+    height: 40%;
+    background-image: url(Screenshot\ 2025-06-10\ 213645.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-left: 55.5%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-top: 68px;
+}
+
+.text-overlay2{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+    font-size: 59px;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: -30px;
+}
+
+
+.aigirl{
+    width: 48%;
+    height: 102%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-top: 45%;
+    margin-left: %;
+}
+
+
+.years{
+     background-image: url(image.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 48%;
+    height: 102%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-top: 45%;
+    margin-left: 52%;
+}
+
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+   display: flex;
+}
+
+.design{
+    margin-left: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 32%;
+    height: 55%;
+    margin-top: 30px;
+}
+
+.webdev{
+    background-color: rgb(225, 225, 225);
+    width: 32%;
+    height: 55%;
+    margin-top: 30px;
+}
+
+.support{
+     background-color: rgb(1, 1, 1);
+    width: 32%;
+    height: 55%;
+    margin-top: 30px;
+}
+
+.latest{
+    width: 100%;
+    color: grey;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: -250px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.latest h1{
+    display: inline-block;
+    padding-left: 100%;
+    animation: latest 10s linear infinite;
+}
+
+@keyframes latest{
+    0% { transform: translateX(0%);}
+    100% { transform: translateX(-100%);}
+}
+
+#moment{
+    width: 45%;
+    height: 80%;
+}
+
+#symbosis{
+    width: 45%;
+    height: 80%;
+}
+
+#page3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: -80px;
+}
+
+.moment{
+    background-image: url(https://agnowp.com/wp-content/uploads/2025/02/hero-bg-04.webp);
+    background-position:center;
+    background-size: cover;
+    width: 48%;
+    height: 70%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
+.sym{
+    width: 48%;
+    height: 70%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 760px;
+}
+
+#page4{
+    height: 100%;
+    width: 100%;
+    margin-top: 70%;
+}
+
+#page5{
+    background-color: blue;
+    height: 100%;
+    width: 96%;
+    margin-top: -80px;
+    margin-left: 30px;
+}
+#page6{
+    background-color: rgb(0, 0, 0);
+    height: 80%;
+    width:100%;
+    margin-top: 10%;
+}
+#page6 h2{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+#page6 h1{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+#page6 h4{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 740px;
+}
+
+#social{
+    display: flex;
+}
+
+#social h4{
+     position: absolute;
+    margin-top: 75px;
+    margin-left: 81%;
+}
+
+#social p{
+    font-size: 30px;
+    margin-left: 80.5%;
+    margin-top: 7.9%;
+}
+
+#social h2{
+    font-size: 30px;
+    margin-left: 84%;
+    margin-top: 7.9%;
+}
+
+#social h1{
+    font-size: 30px;
+    margin-left: 91%;
+    margin-top: 7.9%;
+}
+
+#agno{
+    font-size: 210px;
+    font-weight: 800;
+    color: grey;
+    margin-top: 130px;
+}
